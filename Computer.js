@@ -10,7 +10,7 @@ function Computer(year,price,isNotebook,hardDiskMemory,operationSystem){
    var _freeMemory = hardDiskMemory;
    var _operationSystem =operationSystem;
 
-   this.changeOperationSystem = function()(newOperationSystem){
+   this.changeOperationSystem = function(newOperationSystem){
       _operationSystem = newOperationSystem;
    }
 
